@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Tilt+Warp&display=swap');
+
+
+*{margin: 0; padding: 0; box-sizing: border-box; color: white;}/*/box sizing administratr con la pantalla que tenes/*/
+
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    background-color: var(---fondo);
+    padding: 50px;
+}
+
+
+.fila{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen1{
+    height: 100%;
+    object-fit: cover;
+}
+.columna50{
+
+    width: 100%;
+}
+
+.h200{
+    height: 200px;
+}
+.h400{
+
+    height: 400px;
+
+}
+.ob{
+    overflow: hidden;
+}
+
+
+.flex2{
+
+    flex:2;
+}
+
+.flex1{
+    flex: 1;
+}
+/*/-------------------tipografia--------------------/*/
+:root{
+
+    ---fondo:#090d10;
+}
+
+.centrar-tx{text-align: center;}
+
+.colorprimario{background-color: var(---fondo);}
+.violeta{background-color:violet;}
+.azuleta{background-color:  #422a8a; }
+.roboto{font-family: 'Roboto', sans-serif;}
+.violeta-tx{color:#be8eeb;}
+.tilt{font-family: 'Tilt Warp', cursive;}
+.blanco{color: white;}
+.fw100{font-weight: 100;}
+.fw700{font-weight: 700;}
+/*/--------------------------------------posicion-------------------------------/*/
+.dflex{display: flex;}
+.centrar{justify-content: center;}
+.centrarv{align-items: center;}
+
+/*/-----------------------------------condiciones particulares----------------/*/
+
+.flex1 > p{
+    text-transform:uppercase;
+}
+
+
+.argentina{
+
+    background-image: url(https://www.elgrafico.com.ar/media/cache/pub_news_details_large/media/i/53/fa/53facf1963a1053df0b35ebb8ce8a865706782d9.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
