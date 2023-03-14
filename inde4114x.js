@@ -60,11 +60,11 @@
 // console.table(persona2);
 // const edad= persona.edad.toString();
 
-const alumnos ={
-    nombre:'Luciano',
-    apellido:'Brito',
-    edad:'18',
-    direccion:{
-    ciudad:'tortuguitas';
-    }
-}
+// const alumnos ={
+//     nombre:'Luciano',
+//     apellido:'Brito',
+//     edad:'18',
+//     direccion:{
+//     ciudad:'tortuguitas';
+//     }]
+// }
