@@ -25,6 +25,7 @@
 
     width: 100%;
 }
+.pd25{padding: 25px;}
 
 .h200{
     height: 200px;
@@ -83,3 +84,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* @media screen and (min-width: 662px){
+    .fila {
+        flex-direction: row-reverse;
+    }
+} */
+    
