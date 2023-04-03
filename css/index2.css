@@ -48,3 +48,9 @@
     text-align: center;
     line-height: 40px;
 }
+
+.busqueda input[type="search"]{
+    background-color: transparent;
+    height: 40px;
+    width: calc(100% - 80px);
+}
