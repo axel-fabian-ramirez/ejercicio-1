@@ -98,11 +98,10 @@ nav ul{
     font-size: 20px;
     display: flex;
     justify-content: space-between;
+    gap: 10px;
+    overflow-x: scroll;
 }
 nav ul li{
-    /* float: left;
-    list-style: none;
-    flex: 1 0 20%;
-    background-color: brown;
-    color: white; */
+    flex: 1 1 200px;
+
 }
