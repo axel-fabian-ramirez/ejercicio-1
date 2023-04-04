@@ -23,6 +23,8 @@
     background-size: cover;
     padding: 10%;
     box-shadow: inset 0 0 150px 20px black;
+    margin-bottom: 40px;
+
 }
 
 .header .welcone{
@@ -40,6 +42,9 @@
     box-shadow: 0 10px 10px rgba(0,0,0,25);
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+  
 }
 
 .busqueda .icono{
@@ -49,6 +54,8 @@
     color: white;
     text-align: center;
     line-height: 50px;
+    border-radius: 5px 0 0 5px;
+
 }
 
 .busqueda input[type="search"]{
@@ -80,4 +87,22 @@
     background-color: aquamarine;
     color: white;
     transform: scale(1);
+}
+
+nav{
+    background-color: yellow;
+}
+nav ul{
+    height: 60px;
+    background-color: aquamarine;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    /* float: left;
+    list-style: none;
+    flex: 1 0 20%;
+    background-color: brown;
+    color: white; */
 }
