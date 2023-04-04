@@ -93,7 +93,7 @@ nav{
     background-color: yellow;
 }
 nav ul{
-    height: 60px;
+    height: 100px;
     background-color: aquamarine;
     font-size: 20px;
     display: flex;
@@ -103,5 +103,10 @@ nav ul{
 }
 nav ul li{
     flex: 1 1 200px;
-
+    list-style: none;
+    text-align: center;
+    font-size: 24px!important;
+}
+.fs16{
+    font-size: 30px!important;
 }
