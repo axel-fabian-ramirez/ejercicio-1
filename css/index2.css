@@ -5,6 +5,28 @@
     box-sizing: border-box;
 
 }
+::-webkit-scrollbar {
+    height: 5px;
+    width: 2px;
+    border-radius: 5px;
+}
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgb(109, 223, 185);;
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 171, 142);;
+}
 
 .play2{
     font-family: 'Jura', sans-serif;
@@ -110,3 +132,4 @@ nav ul li{
 .fs16{
     font-size: 30px!important;
 }
+
