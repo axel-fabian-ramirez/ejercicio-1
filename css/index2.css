@@ -141,7 +141,9 @@ nav ul li{
     padding: 14px;
 }
 .ofresto .lista{
-    background-color: red;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
 
 }
 .lista .resto{
@@ -159,4 +161,29 @@ nav ul li{
     height: 100%;
     width: 40%;
     background-color: black;
+}
+.resto .descrip{
+    height:100%;
+    width:60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover ;
+}
+.descrip .datos{
+    
+    justify-self: end;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.valoracion{
+   height: 30px;
+    font-size: 2em;
 }
