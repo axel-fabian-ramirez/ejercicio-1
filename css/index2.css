@@ -5,6 +5,12 @@
     box-sizing: border-box;
 
 }
+
+
+/*-------------------colores-----------------------------*/
+.text2{
+    color: gray;
+}
 ::-webkit-scrollbar {
     height: 5px;
     width: 2px;
@@ -136,8 +142,7 @@ nav ul li{
 
 /*-------------------resto------------*/
 .ofresto{
-    background-color: grey;
-    height: 400px;
+
     padding: 14px;
 }
 .ofresto .lista{
@@ -168,6 +173,7 @@ nav ul li{
     padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .imagen img{
@@ -176,14 +182,47 @@ nav ul li{
     object-fit:cover ;
 }
 .descrip .datos{
-    
+
     justify-self: end;
     display: flex;
     justify-content: space-between;
+    
    
 }
 
 .valoracion{
    height: 30px;
     font-size: 2em;
+    color: yellow;
+}
+.rangoprecio{
+    font-size: 8pt!important;
+    color: yellow;
+
+}
+
+.datosresto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm{
+    font-size: 0.0em!important;
+}
+
+.med{
+    font-size: 10pt;
+
+}
+
+.rata{
+
+    background-color: greenyellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px 0 15px 0px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 16pt;
 }
