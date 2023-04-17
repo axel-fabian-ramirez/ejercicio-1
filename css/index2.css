@@ -142,28 +142,29 @@ nav ul li{
 
 /*-------------------resto------------*/
 .ofresto{
-
     padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
 }
 .ofresto .lista{
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: auto;
 
 }
 .lista .resto{
-    border-radius: 15px;
-    
+    border-radius: 14px;
+    /* overflow: hidden; */
     flex: 1 0 180px;
-
-  
-    
-
+    width: 50%;
     display: flex;
     align-items: center;
-    background-color: white;
     position: relative;
-    box-shadow: 0 0 10px 3px;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.312);
 }
 
 .imagen .descrip{
