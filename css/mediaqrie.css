@@ -4,9 +4,9 @@
         width: 0px;
       
     }
-    .header{
+    /* .header{
         height: 150px;
-    }
+    } */
     nav{width: 96%;margin: auto;}
     .ofresto .lista{
         flex-direction: column;
