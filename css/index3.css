@@ -269,3 +269,50 @@ nav ul li{
     color: black;
     height: 56px;
 }
+/*------------------------menu--------------------------*/
+
+.cerrar_menu{
+    position: fixed;
+    top: 0;
+    background-color: rgba(222, 226, 226, 0.404);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posrel{
+    position: relative;
+    width: 100%;
+
+}
+.cerrar_menu button{
+    position: absolute;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    left: 40px;
+}
+
+
+.cerrar_menu h3{
+    width: 100%;
+    text-align: center;
+}
+
+
+.lista_menu{
+
+    background-color: lavender;
+    height: 300px; 
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pad_top60{
+    padding-top: 60px;
+}
