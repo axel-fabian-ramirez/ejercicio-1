@@ -1,0 +1,147 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.header{
+    
+    
+    background-color: rgba(222, 226, 226, 0.404);
+    height: 100px;
+    width: 100%;
+    
+    align-items: center;
+   
+}
+
+.icono{
+    margin-top: 100px;
+    
+    height: 150px;
+    width:150px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 0;
+}
+
+.lista_menu{
+
+    width: 90%;
+   
+    border-radius: 15px ;
+    
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 0 0 0px 2px ;
+
+    
+}
+.mensaje{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.item_imagen{
+    
+    float: left;
+    height: 50px;
+    width:50px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+
+.wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.material{
+    display: flex;
+    color: gray;
+    align-items: center;
+    align-items: center;
+}
+
+
+.busqueda{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.busqueda input[type="search"] {
+    background-color: transparent;
+    color: gray;
+    height: 25px;
+    width: 65%;
+    border-radius: 10px;
+    
+
+}
+
+.busqueda input[type="submit"] {
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    color: gray;
+    margin-top: 2px;
+}
+
+.perfil{
+    display: flex;
+ 
+}
+
+.nav_mobile{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.nav_mobile a:active, .nav_mobile a:link, .nav_mobile a:visited{
+    text-decoration: none;
+    height: 60px;
+    line-height: 60px;
+    color: gray;
+}
+.nav_mobile a:hover{
+    border-top: solid 4px rgb(20, 40, 220);
+    color: black;
+    height: 56px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.mensajes{
+    margin-left: 40px;
+}
+
+
