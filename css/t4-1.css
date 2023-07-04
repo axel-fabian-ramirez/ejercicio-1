@@ -1,16 +1,20 @@
-* {box-sizing: border-box; margin: auto; padding: 0; transition: all 0.6s ease}
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    transition: all 0.6s ease
+}
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Source+Sans+Pro:400,700');
-body{
-  background-color: blue;
-}
+
 /* menu */
-nav{
-    
+nav {
+
     background-color: white;
 }
-nav ul{
-   height: 130px;
+
+nav ul {
+    height: 130px;
     max-width: 1920px;
     width: 75%;
     font-size: 10px;
@@ -18,54 +22,52 @@ nav ul{
     align-items: center;
     justify-content: center;
     gap: 20px;
-  
+
 }
-nav ul li{
+
+nav ul li {
 
     list-style: none;
     text-align: center;
-  
-    
-}
 
-.wrap{
-  
 
 }
 
-.m100{
+.wrap {}
+
+.m100 {
     margin-left: 100px;
 }
 
-nav ul li a{
+nav ul li a {
     font-size: 15px;
     flex-wrap: wrap;
 }
 
 
 /* contenedores */
-.contenedor{
+.contenedor {
     max-width: 1920px;
     width: auto;
- 
- 
+
+
     height: auto;
 }
 
 .select {
-    
-    width: 300px;
-  }
-
-.select2{
 
     width: 300px;
-  }
+}
 
-.home{
-    
+.select2 {
+
+    width: 300px;
+}
+
+.home {
+
     overflow: hidden;
-  
+
     height: 198px;
 
     display: flex;
@@ -73,20 +75,20 @@ nav ul li a{
     align-items: center;
     justify-content: center;
 
-   
+
 }
 
 
 
 
-.header{
+.header {
     position: relative;
-   
+
     height: 836px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWrsSg7sX2D6tr6pNAX6Tj4_G8Bbxki8O2RA&usqp=CAU);
     background-position: center;
     background-size: cover;
-   
+
     box-shadow: inset 0 0 150px 20px black;
 
     display: flex;
@@ -94,37 +96,38 @@ nav ul li a{
     margin-bottom: 20px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
-.btn{
+
+.btn {
     width: 100px;
     background-color: gray;
     border-radius: 0 0 10px 0;
     color: white;
 }
 
-.blanco{
+.blanco {
     color: white;
 }
 
-.h20{
+.h20 {
     height: 20;
     background-color: yellow;
 }
 
-.gp20{
-    gap:20px;
+.gp20 {
+    gap: 20px;
 }
 
-.publicidad{
+.publicidad {
     position: relative;
     max-width: 1920px;
     height: 616px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWrsSg7sX2D6tr6pNAX6Tj4_G8Bbxki8O2RA&usqp=CAU);
     background-position: center;
     background-size: cover;
-   
+
     box-shadow: inset 0 0 150px 20px black;
 
     display: flex;
@@ -134,8 +137,8 @@ h1{
 
 
 
-.subhome{
-    
+.subhome {
+
     overflow: hidden;
 
     height: 198px;
@@ -145,10 +148,10 @@ h1{
     align-items: center;
     margin-bottom: 20px;
 
-   
+
 }
 
-.titulo{
+.titulo {
     width: 1920px;
     height: 90px;
     background-color: antiquewhite;
@@ -159,39 +162,96 @@ h1{
     font-size: 50px;
 }
 
-.final{
-    height: 500px;
-    background-color: white;
-}
-.footer{
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
     height: 230px;
     width: 75%;
     background-color: gray;
 }
 
-.texto{
+.texto {
+    background-color: white;
     height: 175px;
     width: 75%;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     border: 3px solid goldenrod;
     gap: 20px;
 }
 
-.h2{
+.h2 {
     margin: 0;
-    margin-left:10px ;
-    margin-right:10px ;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.h3{
-    
+.h3 {
+
     margin: 0;
     margin-top: 10px;
-    margin-left:10px ;
+    margin-left: 10px;
 }
-.span{
+
+.span {
     margin: 0;
-    margin-left:10px ;
-    margin-right:10px ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* footer */
+
+
+.w50 {
+
+    width: 50%;
+}
+
+.h230 {
+    height: 230px;
+}
+
+.final {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(181, 98, 98);
+}
+
+
+.w100 {
+    width: 100%;
+}
+
+
+
+ul li {
+    list-style: none;
+}
+
+.img {
+
+
+    height: 30px;
+}
+
+.final-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.icono-flex {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.start-align {
+    align-items: flex-start;
 }
