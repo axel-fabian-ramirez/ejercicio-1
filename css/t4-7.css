@@ -1,0 +1,415 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    transition: all 0.6s ease
+}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Source+Sans+Pro:400,700');
+
+/* menu */
+.wrapper-nav {
+    display: flex;
+}
+
+a {
+    color: #b89e67;
+    font-size: 19px;
+}
+
+p {
+    font-size: 13px;
+
+}
+
+.logout-icon {
+    width: 20px;
+}
+
+.wrapper-logout {
+    display: flex;
+    padding-left: 15px;
+}
+
+
+.m100 {
+    margin-left: 100px;
+}
+
+nav ul li a {
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+a {
+    text-decoration: none;
+    
+}
+
+/* Letras */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.sub16,
+.boton {
+    font-family: 'Quicksand', sans-serif;
+}
+h1 {
+    font-size: 50pt;
+    font-weight: 300;
+    /*light*/
+    letter-spacing: 5px;
+}
+
+h2{
+    font-size: 15pt;
+}
+h3 {
+    font-size: 20pt;
+    font-weight: 400;
+    /*regular*/
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 8pt;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+
+h5 {
+    font-size: 12pt;
+    font-weight: 500;
+    /*MEDIUM*/
+    letter-spacing: 0px;
+}
+
+h6 {
+    font-size: 12pt;
+    font-weight: 700;
+    /*bold*/
+    letter-spacing: 0px;
+}
+/* fin letras */
+
+
+
+.menu_buscador {
+    width: 100%;
+    height: 90px;
+    background-color: #b89e67;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: white;
+
+}
+
+.menu_buscador h2 {
+    font-weight: 100;
+    margin-left: 50px;
+    margin-right: 10px;
+
+}
+
+.menu_buscador img {
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 0;
+
+
+}
+
+.busqueda {
+    border-radius: 15px 15px 15px 15px;
+    height: 30px !important;
+
+}
+
+.menu_buscador select {
+    width: 15%;
+    height: 30px;
+    margin-left: 0;
+    margin-right: 15px;
+    border-width: 3px;
+    border-style: solid;
+    color: gray;
+    border-color: gray;
+}
+
+
+/* footer */
+.menu_buscador {
+    width: 100%;
+    background-color: #b89e67;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.menu_buscador h2 {
+    font-weight: 100;
+    padding-right: 10px;
+}
+
+.menu_fotos {
+    background-image: url(https://www.marquid.com/wp-content/uploads/2017/06/6197706_orig.jpg);
+    width: 100%;
+    height: auto;
+}
+
+
+footer {
+    width: 70%;
+    padding-top: 15px;
+    bottom: 0;
+
+    height: 200px;
+   color: #b89e67;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border: solid 3px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+
+
+.container_footer2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
+}
+
+.footer_opciones2 {
+    padding-top: 15px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.footer_opciones2 input[type="submit"] {
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: #666666;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px 5px 16px 5px;
+}
+
+.footer_opciones2 input[type="text"] {
+    height: 30px;
+    width: 320px;
+    padding-left: 4px;
+}
+
+.footer_iconos {
+    display: flex;
+    padding-top: 15px;
+    padding-right: 50px;
+}
+
+.footer_iconos p {
+    color: #b89e67;
+    font-size: 10px;
+}
+
+.footer_texto2 {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.footer_iconos .icons_media {
+    width: 25px;
+    padding-top: 15px;
+    margin-left: 25px;
+}
+
+.container_footer {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.container_footer img {
+    height: 100px;
+    width: 400px;
+}
+
+.container_footer_texto {
+    display: flex;
+    flex-direction: row;
+}
+
+.container_footer_texto a {
+    font-weight: 100;
+    font-size: 10px;
+    color: #b89e67;
+}
+
+.container_footer_texto ul {
+    padding-right: 50px;
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 12px;
+
+}
+
+.wrapper-icon-media {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* fin footer */
+/* imagen con fondo */
+
+.imagen_fondo{
+    position: relative;
+
+    height: 600px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWrsSg7sX2D6tr6pNAX6Tj4_G8Bbxki8O2RA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+
+  
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.imagen_centro{
+    display: flex;
+    background-color: #b89e67;
+    height: 150px;
+    width: 100%;
+}
+.imagen_centro h1{
+    font-weight: 100 !important;
+    color: white;
+    font-size: 50pt;
+}
+
+
+/* fin */
+
+/* carta */
+.tamaño_carta{
+    display: flex;
+
+    flex-wrap: wrap;
+   gap: 20px;
+    width: 100%;
+}
+.carta_fondo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width:500px;
+    height: 500px;
+   
+    background:url(https://th.bing.com/th/id/R.d702326d10997591c1c972cccf7d98d3?rik=dtG6yXZ7ca3neg&pid=ImgRaw&r=0);
+    background-position: center;
+    background-size: cover;
+}
+
+.carta_texto{
+    display: flex;
+    flex-direction: column;
+    
+    width: 70%;
+    height: 70%;
+   
+    background-color: rgba(170,143,83,0.6);
+}
+
+
+
+
+.carta_texto img{
+    width: 130px;
+    height: 60px;
+    margin-bottom: 0;
+}
+.carta_texto h3{
+    display: flex;
+    text-align: center;
+    color: white;
+}
+.carta_texto h2{
+    display: flex;
+    text-align: center;
+    color: white;
+}
+
+.carta_texto h4 {
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+
+
+.carta_texto input{
+    margin: 5px;
+    height: 30px;
+    width: 95%;
+    background-color: #666666;
+    border: 0;
+    color: white;
+}
+
+
+.obsolute{
+    position: absolute;
+    display: flex;
+    -webkit-transform: rotate(-40deg);
+    margin-top: 10px;
+    margin: 0;
+    background-color: #666666;
+    text-transform: uppercase;
+    top: 13px;
+    color: white;
+}
+
+.carta_texto h1{
+    font-size: 20pt;
+    color: white;
+}
+
+.unico{
+    display: flex;
+   justify-content: center;
+
+}
+
+
+.unico input{
+    margin: 5px;
+    height: 30px;
+    width: 70%;
+    background-color: #666666;
+    border: 0;
+    color: white;
+}
