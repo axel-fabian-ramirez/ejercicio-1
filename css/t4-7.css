@@ -321,6 +321,8 @@ footer {
     flex-wrap: wrap;
    gap: 20px;
     width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 .carta_fondo{
     position: relative;
@@ -328,10 +330,11 @@ footer {
     align-items: center;
     width:500px;
     height: 500px;
-   
+    overflow: hidden;
     background:url(https://th.bing.com/th/id/R.d702326d10997591c1c972cccf7d98d3?rik=dtG6yXZ7ca3neg&pid=ImgRaw&r=0);
     background-position: center;
     background-size: cover;
+    margin:0;
 }
 
 .carta_texto{
@@ -384,12 +387,14 @@ footer {
 .obsolute{
     position: absolute;
     display: flex;
-    -webkit-transform: rotate(-40deg);
+    -webkit-transform: rotate(-45deg);
     margin-top: 10px;
     margin: 0;
     background-color: #666666;
     text-transform: uppercase;
-    top: 13px;
+    top: 25px;
+    left: -40px;
+    padding: 5px 50px;
     color: white;
 }
 
