@@ -411,6 +411,8 @@ footer {
     margin-bottom: 20px;
     color: white;
     padding: 20px;
+    overflow: hidden;
+    
 }
 
 
@@ -426,6 +428,7 @@ footer {
     background-image: url(https://th.bing.com/th/id/OIP.kBJiik3hOzyQgfSxQ3869AHaEK?pid=ImgDet&rs=1);
     background-position: center;
     background-size: cover;
+    position: relative;
   
    
 }
@@ -503,6 +506,8 @@ footer {
     margin-bottom: 20px;
     color: white;
     padding: 20px;
+    overflow: hidden;
+    
 }
 
 
@@ -513,11 +518,13 @@ footer {
     display: flex;
     
     width:95%;
-    height: 55%;
+    height: 45%;
 
     background-image: url(https://th.bing.com/th/id/OIP.kBJiik3hOzyQgfSxQ3869AHaEK?pid=ImgDet&rs=1);
     background-position: center;
     background-size: cover;
+    position: relative;
+    
   
    
 }
@@ -587,6 +594,34 @@ footer {
     width: 70%;
     background-color: #666666;
     border: 0;
+    color: white;
+}
+
+.obsolute{
+    position: absolute;
+    display: flex;
+    -webkit-transform: rotate(-45deg);
+    margin-top: 10px;
+    margin: 0;
+    background-color: #666666;
+    text-transform: uppercase;
+   
+    left: -64px;
+    padding: 5px 50px;
+    color: white;
+}
+
+.obsolute2{
+    position: absolute;
+    display: flex;
+    -webkit-transform: rotate(-45deg);
+    margin-top: 10px;
+    margin: 0;
+    background-color: #666666;
+    text-transform: uppercase;
+   
+    left: -69px;
+    padding: 5px 50px;
     color: white;
 }
 /* .carta_fondo_sabado{
